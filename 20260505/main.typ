@@ -71,7 +71,7 @@
 
 = English
 
-== Weekly Poem
+#heading(outlined: false, depth: 2)[Weekly Poem]
 
 #align(center, box([
   #text(font: "Snell Roundhand", weight: "regular", size: 24pt)[Beauty]
@@ -113,7 +113,7 @@
 
 #pagebreak()
 
-== Phrases
+#heading(outlined: false, depth: 2)[Phrases]
 
 - crowd into the office 涌入办公室
 - flood in 涌入
@@ -190,7 +190,7 @@ $
   r = (a dot (1 - e^2)) / (1 - e dot cos theta)
 $
 
-== 挑战
+#heading(outlined: false, depth: 2)[挑战]
 
 === 挑战一
 已知 $alpha, beta in [0, pi]$，那么 $sin beta dot (sin alpha + sin beta)$ 的最大值是多少？
@@ -480,7 +480,7 @@ $
 
 = 化学
 
-== 方程
+#heading(outlined: false, depth: 2)[方程]
 
 $
   "Fe"("CO")_5 attach(=, t: Delta) "Fe" + 5"CO"
@@ -503,10 +503,10 @@ $
 $
 加热或提高氯离子浓度可使钴盐溶液由粉变蓝，此外氯化钴浓溶液为玫瑰红色，是由二水和钴离子造成的。
 
-== 您知道吗？
+#heading(outlined: false, depth: 2)[您知道吗？]
 硫化铜 $"CuS"$ 并不是简单的 $"Cu"^(2+)$ 和 $"S"^(2-)$ 的结合，实际上它的真实组成是 $"Cu"^+_3 "S"^-_2 "S"^(2-)$，这表明它是一个氧化还原反应，而非传统意义上的非氧化还原反应。
 
-== 几道判断题
+#heading(outlined: false, depth: 2)[几道判断题]
 + 有单质参与的化学反应都是氧化还原反应。
 + 催化剂仅改变速率，不改变反应是否发生。
 + 有机物可以仅由无机物合成。
@@ -593,7 +593,7 @@ $
     ```
   ],
   [
-    我们来实现一下这个 C 语言函数 `f`：
+    我们来实现一下这个 C 语言函数 `s`：
     $
       s_1(x) & = 42 \
       s_2(x) & = x - 32 \
@@ -660,7 +660,7 @@ $
       "while"(c, l) & = "while"' \
            "while"' & |-> "变量"^2 \
         "while"'(v) & = cases(
-                        "while"(c, l) compose l "如果 c"("v") = "true",
+                        ("while"(c, l) compose l)(v) "如果 " c(v) = "true",
                         v,
                       )
     $
