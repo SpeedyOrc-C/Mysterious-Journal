@@ -6,6 +6,7 @@
 
   set page(paper: "a5", margin: 10mm)
   set text(font: ("Charis", "HYRunYuan-45W"), size: 9.5pt, lang: "zh", region: "cn")
+  set raw(tab-size: 4)
 
   show text.where(weight: "bold"): set text(font: ("Charis", "HYRunYuan-65W"))
   show strong: set text(font: ("Charis", "HYRunYuan-65W"), fill: maroon)
