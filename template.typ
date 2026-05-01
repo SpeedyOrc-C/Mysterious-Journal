@@ -100,23 +100,22 @@
     })
   }
 
-  let purifier = {
+  let weaver = {
     align(center, text(
       font: "Niagara Solid",
       size: 22mm,
-      "PURIFIER",
+      "WEAVER",
     ))
   }
 
-  // 这句话看着有点尬，感觉还是删掉算了……
   let knowledge-thing = align(center, text(font: "Inter", size: 2mm, [
-    Knowledge is the only justice. Ignorance is the only evil.
+    You think, therefore you make.
   ]))
 
   let left-figure = grid(
     rows: (auto, auto, auto),
-    row-gutter: 4mm,
-    purifier,
+    row-gutter: 3mm,
+    weaver,
     special-line,
     knowledge-thing,
   )
