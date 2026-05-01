@@ -10,7 +10,7 @@
   set math.equation(numbering: "(1.1)")
   set heading(numbering: "1ai.")
   set page(paper: "a5", margin: 10mm, numbering: "1")
-  set text(font: ("Charis", "HYRunYuan-45W"), size: 9.5pt, lang: "zh", region: "cn")
+  set text(font: ("Charis", "HYRunYuan-45W"), size: 9.5pt, lang: "zh")
   set raw(tab-size: 4)
 
   show text.where(weight: "bold"): set text(font: ("Charis", "HYRunYuan-65W"))
@@ -32,7 +32,7 @@
     it
   }
 
-  show regex("·"): it => {
+  show regex("·|“|”"): it => {
     set text(font: "HYRunYuan-45W")
     show strong: set text(font: "HYRunYuan-75W")
     show text.where(weight: "bold"): set text(font: "HYRunYuan-75W")
