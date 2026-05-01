@@ -3,7 +3,7 @@
 
   show: equate.with(breakable: true, sub-numbering: true)
   set math.equation(numbering: "(1.1)")
-
+  set heading(numbering: "1ai.")
   set page(paper: "a5", margin: 10mm, numbering: "1")
   set text(font: ("Charis", "HYRunYuan-45W"), size: 9.5pt, lang: "zh", region: "cn")
   set raw(tab-size: 4)
