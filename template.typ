@@ -3,6 +3,17 @@
 #let user-sun1yao2-ke3hin1 = link("https://space.bilibili.com/3546700295703443")[孙姚可欣]
 #let user-hikaritsu = link("https://space.bilibili.com/3461570006878542")[Hikaritsu]
 
+#let about = [
+  #align(center, text(size: 14pt, [关于]))
+
+  #link("https://github.com/SpeedyOrc-C/Mysterious-Journal")[*本周刊的源码*]#footnote("https://github.com/SpeedyOrc-C/Mysterious-Journal")是公开的。\
+  如果发现任何错误，请#link("https://github.com/SpeedyOrc-C/Mysterious-Journal/issues")[*提交工单*]#footnote("https://github.com/SpeedyOrc-C/Mysterious-Journal/issues")。\
+  也可以通过#link("mailto:chenzhanming04@foxmail.com")[*邮箱联系排版负责人*]#footnote("chenzhanming04@foxmail.com")。
+
+  编译日期：#datetime.today().display()\
+  编译器：#link("https://typst.app")[Typst] #sys.version
+]
+
 #let template-style(it) = {
   import "@preview/equate:0.3.2": equate
 
@@ -122,6 +133,10 @@
 
   grid(
     columns: (auto, auto),
-    left-figure, {v(2mm); right-figure},
+    left-figure,
+    {
+      v(2mm)
+      right-figure
+    },
   )
 }

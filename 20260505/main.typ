@@ -1,5 +1,5 @@
 #import "@preview/simple-plot:0.3.0": plot
-#import "../template.typ": purifier-cover-figure, template-style
+#import "../template.typ": purifier-cover-figure, template-style, about
 #import "../template.typ" as T
 
 #show: template-style
@@ -29,6 +29,10 @@
       T.user-hikaritsu, [英语、数学、物理、计算机],
     )
     感谢参与编辑与阅读的各位！
+
+    #v(10mm)
+
+    #about
   ],
 )
 
@@ -578,7 +582,7 @@ $
       "while"(c, l) & = "while"' \
            "while"' & |-> "变量"^2 \
         "while"'(v) & = cases(
-                        "while"(c, l)(l(v)) "如果 " c(v) = "true",
+                        "while"(c, l)(l(v)) "如果" c(v) = "true",
                         v,
                       )
     $
