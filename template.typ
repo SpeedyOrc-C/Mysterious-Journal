@@ -1,3 +1,8 @@
+#let user-tang2-ki2 = link("https://space.bilibili.com/1321411948")[唐琦]
+#let user-chen2-zham4ming2 = link("https://github.com/SpeedyOrc-C")[陈湛明]
+#let user-sun1yao2-ke3hin1 = link("https://space.bilibili.com/3546700295703443")[孙姚可欣]
+#let user-hikaritsu = link("https://space.bilibili.com/3461570006878542")[Hikaritsu]
+
 #let template-style(it) = {
   import "@preview/equate:0.3.2": equate
 

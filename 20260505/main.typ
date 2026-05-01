@@ -1,11 +1,36 @@
 #import "@preview/simple-plot:0.3.0": plot
 #import "../template.typ": purifier-cover-figure, template-style
+#import "../template.typ" as T
 
 #show: template-style
 
 #purifier-cover-figure
 
-#outline(depth: 2)
+#grid(
+  columns: (1fr, 1fr),
+  column-gutter: 1cm,
+  outline(depth: 2),
+  [
+    #align(center, text(size: 14pt, [编辑]))
+    #table(
+      columns: (auto, auto),
+      inset: 1.2mm,
+      align: (right, left),
+      stroke: none,
+      [盛悦], [历史],
+      [雷雪莲], [语文],
+      T.user-sun1yao2-ke3hin1, [地理],
+      [吴悠然], [时政热点],
+      [龚逸晨], [物理、化学],
+      [冯毅晨], [伯努利家族、变分法],
+      T.user-tang2-ki2, [物理],
+      [周宇帆], [计算机],
+      T.user-chen2-zham4ming2, [英语、计算机、排版],
+      T.user-hikaritsu, [英语、数学、物理、计算机],
+    )
+  ],
+)
+
 
 #pagebreak()
 
@@ -341,7 +366,7 @@ $
                                   y & = a dot cosh (x-C_0)/a + C_1 \
 $
 
-很显然 $C_0, C_1$ 代表的是绳子的整体偏移，当它们都是 $0$ 算了。所以最终答案是：
+很显然 $C_0$ 和 $C_1$ 代表的是绳子的整体偏移，当它们都是 $0$ 算了。所以最终答案是：
 
 $
   y & = a dot cosh x/a
