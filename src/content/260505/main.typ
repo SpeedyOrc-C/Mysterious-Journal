@@ -1,6 +1,6 @@
 #import "@preview/simple-plot:0.3.0": plot
-#import "../template.typ": purifier-cover-figure, template-style, about
-#import "../template.typ" as T
+#import "../../template.typ": purifier-cover-figure, template-style, about
+#import "../../template.typ" as T
 
 #show: template-style
 
