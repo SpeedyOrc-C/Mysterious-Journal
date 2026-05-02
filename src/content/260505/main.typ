@@ -1,40 +1,23 @@
 #import "@preview/simple-plot:0.3.0": plot
-#import "../../template.typ": purifier-cover-figure, template-style, about
-#import "../../template.typ" as T
+#import "../../template.typ": prelude
+#import "../../editors.typ" as Editor
 
-#show: template-style
-
-#purifier-cover-figure
-
-#grid(
-  columns: (1fr, 1fr),
-  column-gutter: 1cm,
-  outline(depth: 2),
-  [
-    #align(center, text(size: 14pt, [编辑]))
-    #table(
-      columns: (auto, auto),
-      inset: 1.2mm,
-      align: (right, left),
-      stroke: none,
-      [盛悦], [历史],
-      [雷雪莲], [语文],
-      T.user-sun1yao2-ke3hin1, [地理],
-      [吴悠然], [时政热点],
-      [龚逸晨], [物理、化学],
-      [冯毅晨], [伯努利家族、变分法],
-      T.user-tang2-ki2, [物理],
-      [周宇帆], [计算机],
-      T.user-chen2-zham4ming2, [英语、计算机、排版],
-      T.user-hikaritsu, [英语、数学、物理、计算机],
-    )
-    感谢参与编辑与阅读的各位！
-
-    #v(10mm)
-
-    #about
-  ],
-)
+#show: prelude(table(
+  columns: (auto, auto),
+  inset: 1.2mm,
+  align: (right, left),
+  stroke: none,
+  [盛悦], [历史],
+  [雷雪莲], [语文],
+  Editor.孙姚可欣, [地理],
+  [吴悠然], [时政热点],
+  [龚逸晨], [物理、化学],
+  [冯毅晨], [伯努利家族、变分法],
+  Editor.唐琦, [物理],
+  [周宇帆], [计算机],
+  Editor.陈湛明, [英语、计算机、排版],
+  Editor.Hikaritsu, [英语、数学、物理、计算机],
+))
 
 #pagebreak()
 
@@ -291,7 +274,7 @@ $
 === 出现亮条纹的条件
 
 屏上某点 $P$ 到双缝 $S_1$ 和 $S_2$ 的路程差正好是波长的整数倍，\
-即 $abs(P S_1 - P S_2) = k lambda = 2k dot lambda/2 space (K in NN)$.
+即 $abs(P S_1 - P S_2) = k lambda = 2k dot lambda/2 space (k in NN)$.
 
 $k=0$ 时，$P S_1 = P S_2$，此时 $P$ 位于屏上的 $O$ 处，为亮条纹。\
 此处的条纹叫*中央亮条纹*或*零级亮条纹*。$k$ 为亮条纹的*级次*。

@@ -1,20 +1,4 @@
-#let user-tang2-ki2 = link("https://space.bilibili.com/1321411948")[唐琦]
-#let user-chen2-zham4ming2 = link("https://github.com/SpeedyOrc-C")[陈湛明]
-#let user-sun1yao2-ke3hin1 = link("https://space.bilibili.com/3546700295703443")[孙姚可欣]
-#let user-hikaritsu = link("https://space.bilibili.com/3461570006878542")[Hikaritsu]
-
-#let about = [
-  #align(center, text(size: 14pt, [关于]))
-
-  #link("https://github.com/SpeedyOrc-C/Mysterious-Journal")[*本周刊的源码*]#footnote("https://github.com/SpeedyOrc-C/Mysterious-Journal")是公开的。\
-  如果发现任何错误，请#link("https://github.com/SpeedyOrc-C/Mysterious-Journal/issues")[*提交工单*]#footnote("https://github.com/SpeedyOrc-C/Mysterious-Journal/issues")。\
-  也可以通过#link("mailto:chenzhanming04@foxmail.com")[*邮箱联系排版负责人*]#footnote("chenzhanming04@foxmail.com")。
-
-  编译日期：#datetime.today().display()\
-  编译器：#link("https://typst.app")[Typst] #sys.version
-]
-
-#let template-style(it) = {
+#let custom-style(it) = {
   import "@preview/equate:0.3.2": equate
 
   show: equate.with(breakable: true, sub-numbering: true)
@@ -32,12 +16,14 @@
     set text(size: 22pt)
     align(center, it)
   }
+
   show heading.where(level: 2): it => {
     set text(size: 15pt, weight: "regular")
     it
     v(-12pt)
     line(length: 100%, stroke: (paint: black, dash: "dotted"))
   }
+
   show heading.where(level: 3): it => {
     set text(size: 12pt)
     it
@@ -53,7 +39,7 @@
   it
 }
 
-#let purifier-cover-figure = {
+#let weaver-cover-figure = {
   let special-line = {
     let width = 70mm
     let height-p = 0.03
@@ -139,4 +125,35 @@
       right-figure
     },
   )
+}
+
+#let cover(editors) = [
+  #weaver-cover-figure
+  #grid(
+    columns: (1fr, 1fr),
+    column-gutter: 1cm,
+    outline(depth: 2),
+    [
+      #align(center, text(size: 14pt, [编辑]))
+      #editors
+      感谢参与编辑与阅读的各位！
+
+      #v(10mm)
+
+      #align(center, text(size: 14pt, [关于]))
+      #link("https://github.com/SpeedyOrc-C/Mysterious-Journal")[*本周刊的源码*]#footnote("https://github.com/SpeedyOrc-C/Mysterious-Journal")是公开的。\
+      如果发现任何错误，请#link("https://github.com/SpeedyOrc-C/Mysterious-Journal/issues")[*提交工单*]#footnote("https://github.com/SpeedyOrc-C/Mysterious-Journal/issues")。\
+      也可以通过#link("mailto:chenzhanming04@foxmail.com")[*邮箱联系排版负责人*]#footnote("chenzhanming04@foxmail.com")。
+
+      编译日期：#datetime.today().display()\
+      编译器：#link("https://typst.app")[Typst] #sys.version
+    ],
+  )
+]
+
+#let prelude(editors) = it => {
+  show: custom-style
+  cover(editors)
+  pagebreak()
+  it
 }
