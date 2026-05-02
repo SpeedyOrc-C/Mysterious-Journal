@@ -12,6 +12,8 @@
   show strong: set text(font: ("Charis", "HYRunYuan-65W"), fill: maroon)
   show raw: set text(font: ("Menlo", "HYRunYuan-45W"), fill: maroon)
 
+  show math.equation: set text(font: ("New Computer Modern Math", "Songti SC"))
+
   show heading.where(level: 1): it => {
     set text(size: 22pt)
     align(center, it)
