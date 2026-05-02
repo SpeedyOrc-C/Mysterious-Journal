@@ -19,8 +19,6 @@
   Editor.Hikaritsu, [英语、数学、物理、计算机],
 ))
 
-#pagebreak()
-
 = 时政热点快报
 
 == 国内指向
