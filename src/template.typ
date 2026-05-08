@@ -52,6 +52,14 @@
   show strong: set text(font: ("Charis", "HYRunYuan-65W"), fill: maroon)
   show raw: set text(font: ("Menlo", "HYRunYuan-45W"), fill: maroon)
 
+  set page(
+  footer: context {
+    set align(center)
+    set text(size: 9.5pt)
+    counter(page).display("1")
+  }
+)
+
   show math.equation: set text(font: ("New Computer Modern Math", "Songti SC"))
 
   show heading.where(level: 1): it => {

@@ -2,7 +2,7 @@
 
 #show: content-style
 
-#cover([2], ())
+#cover([2], [])
 
 #pagebreak()
 
