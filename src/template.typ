@@ -1,4 +1,4 @@
-#let custom-style(it) = {
+#let content-style(it) = {
   import "@preview/equate:0.3.2": equate
 
   show: equate.with(breakable: true, sub-numbering: true)
@@ -28,6 +28,47 @@
 
   show heading.where(level: 3): it => {
     set text(size: 12pt)
+    it
+  }
+
+  show regex("·|“|”"): it => {
+    set text(font: "HYRunYuan-45W")
+    show strong: set text(font: "HYRunYuan-75W")
+    show text.where(weight: "bold"): set text(font: "HYRunYuan-75W")
+    it
+  }
+
+  it
+}
+
+#let answer-style(it) = {
+  import "@preview/equate:0.3.2": equate
+
+  set page(paper: "a5", margin: 10mm, numbering: "1")
+  set text(font: ("Charis", "HYRunYuan-45W"), size: 7pt, lang: "zh")
+  set raw(tab-size: 4)
+
+  show text.where(weight: "bold"): set text(font: ("Charis", "HYRunYuan-65W"))
+  show strong: set text(font: ("Charis", "HYRunYuan-65W"), fill: maroon)
+  show raw: set text(font: ("Menlo", "HYRunYuan-45W"), fill: maroon)
+
+  show math.equation: set text(font: ("New Computer Modern Math", "Songti SC"))
+
+  show heading.where(level: 1): it => {
+    set text(size: 18pt)
+    align(center, it)
+    v(8pt)
+  }
+
+  show heading.where(level: 2): it => {
+    set text(size: 13pt, weight: "regular")
+    it
+    v(-9pt)
+    line(length: 100%, stroke: (paint: black, dash: "dotted"))
+  }
+
+  show heading.where(level: 3): it => {
+    set text(size: 10pt)
     it
   }
 
@@ -129,7 +170,7 @@
   )
 }
 
-#let cover(editors) = [
+#let cover(volume, editors) = [
   #weaver-cover-figure
   #grid(
     columns: (1fr, 1fr),
@@ -147,15 +188,9 @@
       如果发现任何错误，请#link("https://github.com/SpeedyOrc-C/Mysterious-Journal/issues")[*提交工单*]#footnote("https://github.com/SpeedyOrc-C/Mysterious-Journal/issues")。\
       也可以通过#link("mailto:chenzhanming04@foxmail.com")[*邮箱联系排版负责人*]#footnote("chenzhanming04@foxmail.com")。
 
+      期数：#volume\
       编译日期：#datetime.today().display()\
       编译器：#link("https://typst.app")[Typst] #sys.version
     ],
   )
 ]
-
-#let prelude(editors) = it => {
-  show: custom-style
-  cover(editors)
-  pagebreak()
-  it
-}

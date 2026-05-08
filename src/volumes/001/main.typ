@@ -1,8 +1,10 @@
 #import "@preview/simple-plot:0.3.0": plot
-#import "../../template.typ": prelude
+#import "../../template.typ": content-style, cover
 #import "../../editors.typ" as Editor
 
-#show: prelude(table(
+#show: content-style
+
+#cover([1], table(
   columns: (auto, auto),
   inset: 1.2mm,
   align: (right, left),
@@ -18,6 +20,8 @@
   Editor.陈湛明, [英语、计算机、排版],
   Editor.Hikaritsu, [英语、数学、物理、计算机],
 ))
+
+#pagebreak()
 
 = 时政热点快报
 
