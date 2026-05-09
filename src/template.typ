@@ -1,40 +1,54 @@
+#let content-font(it) = {
+  show: set text(font: "Charis")
+  show strong: set text(weight: "bold")
+  show raw: set text(font: ("Menlo", "HYRunYuan-45W"))
+
+  show text.where(lang: "zh"): set text(font: (
+    (name: "Charis", covers: "latin-in-cjk"),
+    "HYRunYuan-45W",
+  ))
+  show text.where(lang: "zh", weight: "semibold"): set text(font: (
+    (name: "Charis", covers: "latin-in-cjk"),
+    "HYRunYuan-65W",
+  ))
+  show text.where(lang: "zh", weight: "bold"): set text(font: (
+    (name: "Charis", covers: "latin-in-cjk"),
+    "HYRunYuan-75W",
+  ))
+  show text.where(lang: "ja"): set text(
+    font: (
+      (name: "Charis", covers: "latin-in-cjk"),
+      "Source Han Serif",
+    ),
+  )
+
+  it
+}
+
 #let content-style(it) = {
   import "@preview/equate:0.3.2": equate
 
   show: equate.with(breakable: true, sub-numbering: true)
+  show: content-font
+
   set math.equation(numbering: "(1.1)")
   set heading(numbering: "1ai.")
   set page(paper: "a5", margin: 10mm, numbering: "1")
-  set text(font: ("Charis", "HYRunYuan-45W"), size: 9.5pt, lang: "zh")
   set raw(tab-size: 4)
 
-  show text.where(weight: "bold"): set text(font: ("Charis", "HYRunYuan-65W"))
-  show strong: set text(font: ("Charis", "HYRunYuan-65W"), fill: maroon)
-  show raw: set text(font: ("Menlo", "HYRunYuan-45W"), fill: maroon)
-
-  show math.equation: set text(font: ("New Computer Modern Math", "Songti SC"))
-
+  show: set text(size: 9.5pt)
   show heading.where(level: 1): it => {
     set text(size: 22pt)
     align(center, it)
   }
-
   show heading.where(level: 2): it => {
     set text(size: 15pt, weight: "regular")
     it
     v(-12pt)
     line(length: 100%, stroke: (paint: black, dash: "dotted"))
   }
-
   show heading.where(level: 3): it => {
-    set text(size: 12pt)
-    it
-  }
-
-  show regex("·|“|”"): it => {
-    set text(font: "HYRunYuan-45W")
-    show strong: set text(font: "HYRunYuan-75W")
-    show text.where(weight: "bold"): set text(font: "HYRunYuan-75W")
+    set text(size: 12pt, weight: "semibold")
     it
   }
 
@@ -42,48 +56,33 @@
 }
 
 #let answer-style(it) = {
-  import "@preview/equate:0.3.2": equate
+  show: content-font
 
   set page(paper: "a5", margin: 10mm, numbering: "1")
-  set text(font: ("Charis", "HYRunYuan-45W"), size: 7pt, lang: "zh")
   set raw(tab-size: 4)
 
-  show text.where(weight: "bold"): set text(font: ("Charis", "HYRunYuan-65W"))
-  show strong: set text(font: ("Charis", "HYRunYuan-65W"), fill: maroon)
-  show raw: set text(font: ("Menlo", "HYRunYuan-45W"), fill: maroon)
-
   set page(
-  footer: context {
-    set align(center)
-    set text(size: 9.5pt)
-    counter(page).display("1")
-  }
-)
+    footer: context {
+      set align(center)
+      set text(size: 9.5pt)
+      counter(page).display("1")
+    },
+  )
 
-  show math.equation: set text(font: ("New Computer Modern Math", "Songti SC"))
-
+  show: set text(size: 7pt)
   show heading.where(level: 1): it => {
     set text(size: 18pt)
     align(center, it)
     v(8pt)
   }
-
   show heading.where(level: 2): it => {
     set text(size: 13pt, weight: "regular")
     it
     v(-9pt)
     line(length: 100%, stroke: (paint: black, dash: "dotted"))
   }
-
   show heading.where(level: 3): it => {
-    set text(size: 10pt)
-    it
-  }
-
-  show regex("·|“|”"): it => {
-    set text(font: "HYRunYuan-45W")
-    show strong: set text(font: "HYRunYuan-75W")
-    show text.where(weight: "bold"): set text(font: "HYRunYuan-75W")
+    set text(size: 10pt, weight: "semibold")
     it
   }
 
@@ -180,6 +179,7 @@
 
 #let cover(volume, editors) = [
   #weaver-cover-figure
+  #set text(lang: "zh")
   #grid(
     columns: (1fr, 1fr),
     column-gutter: 1cm,

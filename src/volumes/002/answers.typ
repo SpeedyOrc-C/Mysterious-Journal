@@ -2,6 +2,8 @@
 
 #show: answer-style
 
+#set text(lang: "zh")
+
 = 上期答案
 
 #grid(

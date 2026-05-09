@@ -23,6 +23,8 @@
 
 #pagebreak()
 
+#set text(lang: "zh")
+
 = 时政热点快报
 
 == 国内指向
@@ -46,7 +48,7 @@
 #grid(
   columns: (1fr, 2.1fr),
   gutter: 5mm,
-  image("wang-zengqi.jpg"),
+  image("img/wang-zengqi.jpg"),
   [
     汪曾祺（1920年3月5日—1997年5月16日），江苏高邮人，中国当代小说家、散文家、戏剧家，被誉为京派作家的代表人物。代表作品有《受戒》、《晚饭花集》、《逝水》、《晚翠文谈》、《端午的鸭蛋》等。
 
@@ -75,7 +77,7 @@
 顺带一提，后来汉哀帝甚至想把皇位传给董贤，被大臣拼命劝阻才作罢。
 
 #figure(
-  image("ningxingzhuan-63-banguhanshu-93-duanxiu.png"),
+  image("img/ningxingzhuan-63-banguhanshu-93-duanxiu.png"),
   caption: [
     《漢書》佞幸傳第六十三班固漢書九十三，百衲本，第十頁
     #footnote[https://www.shidianguji.com/zh/book/LS0002/chapter/1j7m8xqh19mpj_97?page_from=searching_page&paragraphId=LS0002_2_5357&topicId=&version=71&lineId=1244&lineIndex=0&sentenceIndex=0&sentenceId=7424809546637656114]
@@ -178,7 +180,7 @@ The troops marched swiftly forward by the light of the moon. \
 #align(center, box(grid(
   columns: (auto, auto, auto),
   gutter: 1cm,
-  image("polar-coordinates.png"),
+  image("img/polar-coordinates.png"),
   grid(
     rows: (auto, auto),
     gutter: 1cm,
@@ -263,7 +265,7 @@ $
 #grid(
   columns: (2fr, 3fr),
   column-gutter: 1cm,
-  image("double-slit.png"),
+  image("img/double-slit.png"),
   [
     $S_1$ 和 $S_2$ 是两个狭缝，\
     $l$ 是缝到屏的距离，\
@@ -374,7 +376,7 @@ $
 
 这个结论被称为“速端曲线 (hodograph)”，它将复杂的椭圆运动转化为简单的圆周运动，揭示了万有引力定律与圆锥曲线之间深刻的内在联系，至今仍是航天轨道设计的核心工具。
 
-#image("hodograph.png")
+#image("img/hodograph.png")
 
 已知行星绕太阳做椭圆运动，太阳位于椭圆的一个焦点上。设椭圆的长半轴为 $a$，\
 离心率为 $e$，行星与太阳的连线在单位时间内扫过的面积为常数 $h/2$（开普勒第二定律）。
@@ -427,7 +429,7 @@ $
 - 龙目、望加锡等海峡水深超千米，陆生动物无法跨越。
 - 两侧气候环境（西侧湿润雨林、东侧干湿澳洲环境）适配不同生物，鸟类也难长期生存。
 
-#image("boundaries-Indonesian-archipelago.png")
+#image("img/boundaries-Indonesian-archipelago.png")
 
 = 计算机
 
