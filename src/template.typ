@@ -21,9 +21,12 @@
       "Source Han Serif",
     ),
   )
+  show text.where(lang: "egy"): set text(font: "Aegyptus")
 
   it
 }
+
+#let egy = it => text(lang: "egy", it)
 
 #let content-style(it) = {
   import "@preview/equate:0.3.2": equate
@@ -38,7 +41,7 @@
 
   show: set text(size: 9.5pt)
   show heading.where(level: 1): it => {
-    set text(size: 22pt)
+    set text(size: 22pt, weight: "semibold")
     align(center, it)
   }
   show heading.where(level: 2): it => {
