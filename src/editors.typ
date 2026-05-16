@@ -2,3 +2,6 @@
 #let 陈湛明 = link("https://github.com/SpeedyOrc-C")[陈湛明]
 #let 孙姚可欣 = link("https://space.bilibili.com/3546700295703443")[孙姚可欣]
 #let Hikaritsu = link("https://space.bilibili.com/3461570006878542")[Hikaritsu]
+#let 吴悠然 = [吴悠然]
+#let 雷雪莲 = [雷雪莲]
+#let 郑肖阳 = [郑肖阳]

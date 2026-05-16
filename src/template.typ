@@ -196,7 +196,7 @@
 
       #align(center, text(size: 14pt, [关于]))
       #link("https://github.com/SpeedyOrc-C/Mysterious-Journal")[*本周刊的源码*]#footnote("https://github.com/SpeedyOrc-C/Mysterious-Journal")是公开的。\
-      如果发现任何错误，请#link("https://github.com/SpeedyOrc-C/Mysterious-Journal/issues")[*提交工单*]#footnote("https://github.com/SpeedyOrc-C/Mysterious-Journal/issues")。\
+      如果发现任何错误，请#link("https://github.com/SpeedyOrc-C/Mysterious-Journal/issues")[*提交工单*]。\
       也可以通过#link("mailto:chenzhanming04@foxmail.com")[*邮箱联系排版负责人*]#footnote("chenzhanming04@foxmail.com")。
 
       期数：#volume\
