@@ -23,7 +23,11 @@
   Editor.吴悠然, [时政热点],
   Editor.郑肖阳, [汉语诗],
   Editor.孙姚可欣, [地理],
-  Editor.陈湛明, [数学],
+  Editor.盛悦, [历史],
+  Editor.龚逸晨, [化学],
+  Editor.周宇帆, [计算机],
+  Editor.陈湛明, [数学,排版],
+  Editor.Hikaritsu, [数学,计算机,化学,物理,English,排版],
 ))
 
 #pagebreak()
@@ -112,6 +116,183 @@
   ),
   figure(caption: [马尔代夫 #footnote[https://www.instagram.com/reels/DX4iK2Focsq]], image("img/maldeives.jpg")),
 )
+
+#pagebreak()
+
+= 你一块，我一块的均田制—吗？
+诚然，我们都从历史书上学到过均田制。But，那这均田制到底是什么？
+
+== 起源 - 北魏
+
+桑田=最初的永业田 #footnote[*永业田*：农民私有（国家承认世袭）死后不还，传给子孙，唐朝后基本放开；保障家庭基本生计；鼓励种植经济作物。20亩/男丁。]。男丁授桑田20亩，作为永业田，终身不还，世代相传。北魏的桑田不仅是土地，还是古代的"社会保障"。政府强制要求种植桑树、枣树、榆树，就是为了让农民在灾年可以靠养蚕、卖枣、伐木工钱度过饥荒，相当于给每个家庭上了一份"农业保险"。直到北齐与隋才被正式定名为"世业田"。那个时候开始允许身死家贫无以供葬者出卖世业田，而这，打开了土地买卖的第一个缺口。
+
+== 鼎盛与失控 - 唐朝
+
+这时，永业田全面普及。男丁可分到永业田20亩，口分田 #footnote[*分口田*：国家所有，农民只有使用权 ；农民60岁或死亡后必须归还国家 ；仅特殊情况可卖，严格限制；提供了主要的粮食生产用地 。80亩/男丁（狭乡减半） 。] 80亩。并且将范围扩大至工商业者、僧尼、道士。大幅放宽买卖限制，迁徙他乡者可卖永业田； 贫无以葬者可卖永业田；从狭乡迁往宽乡者，连口分田也可一并出卖。这似乎很自由，但豪强地主趁机通过各种手段兼并农民的土地，导致国家掌握的土地越来越少。国家既无地可授，也无法征收租庸调。最终，唐德宗建中元年（780年），均田制被两税法取代，永业田彻底变成了完全私有的土地。
+
+== 均田不均
+
+是的，根据以上，我们可以知道：均田制听起来很美好，但实际上从来没有真正实现过"均田"。贵族和官僚可以按品级获得大量永业田 #footnote[*官僚贵族的永业田*（"均田不均"的最大体现）：亲王：100顷（10000亩）；正一品官：60顷；正二品官：40顷；正七品官：2.5顷。这些土地完全免税、永不归还，是官僚地主阶级的特权保障。]，最高可达100顷（10000亩）。在人口稠密的"狭乡"，农民实际分到的土地往往只有标准的三分之一甚至更少。隋初狭乡一丁只有20亩土地，还不到标准的四分之一。 敦煌出土的唐代户籍显示，很多农户的"已受田"只有"应受田"的20%-30%，失去土地的农民变成流民。#footnote[*敦煌文书里的“受田不足”实录*：敦煌出土的《唐天宝三载（744年）敦煌郡敦煌县神沙乡弘远里籍》记载了户主张奴奴的受田情况：  应受田82亩（老男50亩+寡母30亩+园宅地2亩），实际仅受22亩（永业田20亩+园宅地2亩），口分田60亩全部未受。 但张奴奴是63岁的老男当户，按唐令应受50亩（丁男100亩的一半），但文书明确写“六十亩未受”。同批文书中，阴承光户的婆母袁和母亲齐氏共应受田60亩（各30亩），但实际仅受7亩口分田。而唐代规定寡妻妾为户主可受30亩，远超老男当户的50亩。]而有些和尚得到的，甚至比勤勤恳恳干活的农民都多 #footnote[敦煌文书S.1475《唐天宝六载敦煌县田簿》显示，某寺院一僧名下登记田产达150亩，远超法定额度。]。
+
+既然知道了均田制，那么其影响也不可忽视。它在一定程度上抑制了土地兼并，使无地农民获得了小块土地，促进了农业生产的恢复和发展。它将大量流民固定在土地上，增加了国家的财政收入和兵源，为北魏统一北方和隋唐盛世奠定了经济基础。它是中国古代国家对土地资源进行宏观调控的一次伟大尝试，对后世产生了深远影响。均田制不仅影响了中国，还传播到了东亚其他国家。日本的班田制（646年大化改新后实行）完全模仿均田制；朝鲜的丁田制也借鉴了均田制的核心思想。可以说，均田制是古代东亚地区最具影响力的土地制度之一。
+
+清代的纪晓岚曾在其诗中写道：“江都留得均田法，只有如今塞外行”。他感叹这种理想化的制度在内地早已难以实行，反而在人地关系不那么紧张的边疆地区才能看到其痕迹，仿佛为这个伟大的制度构想，画上了一个意味深长的句号。
+
+== 那些均田制中“轶事”
+
++ 均田制的真正创始人不是孝文帝。很多人以为均田制是孝文帝发明的，其实它的首倡者是北魏给事中：李安世。当时北方长期战乱，大量农民流亡，土地荒芜，豪强兼并严重。李安世上书孝文帝，提出两个关键建议：一、对于有争议的土地，"事久难明，悉归今主"，承认现有耕种者的使用权，避免无休止的诉讼。二、国家将无主荒地按人口分配给农民，"使力业相称"，让劳动力和土地匹配。后来，孝文帝采纳了他的建议，颁布了均田令。《魏书》明确记载："后均田之制起于此矣"。
+
++ 王莽因“王田制”被疑为穿越者。在西汉末年，王莽曾推行类似的“王田制”，宣布土地国有、禁止买卖、分给无地农民。由于这些理念与当时社会格格不入，以至于至今网上都有戏言，怀疑王莽是一位现代“穿越者”，在错误的时间推行了过于超前的政策。
++ 奴婢和耕牛也能"分田地"：北魏均田制最奇特的一点是：奴婢和耕牛都能像人一样分到土地。奴婢和普通农民一样，每人授露田40亩、桑田20亩，而且人数不限。丁牛#footnote[*丁牛*：四岁以上耕牛。]每头授露田30亩，一户最多限4头。这本来是为了鼓励农民养牛、发展生产，但却被豪强地主钻了空子。他们大量蓄养奴婢，一户就能分到几千亩土地，反而加剧了土地不均。
++ 拓跋鲜卑的“牛才权”。北魏作为游牧民族建立的王朝，对耕牛极为重视。在早期的均田制中，每户人家拥有的耕牛也可获得授田，标准为每头耕牛授田30亩，且一户限4头牛。更有趣的是，北魏均田制规定妇女授田20亩，而一头牛却能获30亩，这种“牛比人贵”的景象，充分体现了游牧民族对牛的高度重视。
+
+#pagebreak()
+
+= English
+
+#heading(outlined: false, depth: 2)[Weekly Poem]
+
+#align(center, box([
+  #text(font: "Snell Roundhand", weight: "regular", size: 24pt)[If You Believe]
+  #v(-6mm)
+  #align(left)[
+    If you believe inside your heart\
+    Nobody's second class\
+    Every day's a brand new start\
+    What's past is past\
+    And if your dreams go nowhere\
+    Don't give up the fight\
+
+    Come with me and you will see\
+    It all looks different in the morning light\
+
+    If you're feeling you can't go on and   you're\
+    Lost and lonely and feel so afraid\
+    Remember, things can only get better\
+
+  ]
+
+  #align(right)[_Kylie Minogue_]
+]))
+
+== Usage of Way
+
+1. You can say something is done *in a particular way*, e.g.\
+
+We have to describe this *in some other way*.\
+
+When you use *this* or *that* with *way*, you usually omit the "in", e.g.\
+
+... she was crazy to talk to those thugs *that way*.\
+I can do it *this way*.\
+
+You can also omit "in" when you are using *the* or a possessive, e.g.\
+
+We don't look at things *the same way*.\
+I'm going to handle *this my way*.\
+  
+2. You can talk about *a way of doing something* or *a way to do it*.There is no difference in meaning, e.g.\
+
+There's *no way of proving* he stole the watch.\
+There's *no way to prove* he stole the watch.\
+
+Note that if you use a possessive with *way*, you must use "of" and an "-ing" form after it. You do not use a "to" infinitive, e.g.\
+
+I'm used to *her way of doing* things.\
+
+3. When *the way* is followed by a clause, this clause can be a "that" clause or a clause beginning with "in which". "That" can also be omitted. For example, you can say "*the way that* she told the story", "*the way in which* she told the story" or "*the way* she told the story". There is no difference in meaning.
+
+== Expressions
+
+以下是 “(尽最大)努力……” 的一些英文表达\
+
++ endeavour to do sth.
+
++ make every endeavour to do sth.
++ strive to do sth.
++ go to/take great trouble to do sth. = 不 辞辛苦...
++ will sb. /sth. to do sth. (特例: will oneself(not)to do sth.)
++ do everything in one's power to do sth.
++ ... ,no expense spared(独立主格结构)
++ go at it hammer and tongs = 全力以赴做...; 激烈争吵或打斗
++ come out(with)all guns blazing=火力全开;付诸全部的精力去做;全力以赴
++ go/work/move/be full steam ahead(with ... )=全速推进;开足马力进行;全力以赴
+
+=== Examples
+
++ We should *struggle to* overcome our shortcomings.
+
++ The company came out *with all guns blazing*.
++ I'm going to take you out to dinner, *no expense spared*.
++ First, we should *endeavour to* work for the well-being of the next generation.
++ Even if I work *full steam ahead*, it will take me the whole day to finish typing this long report.
++ She's going to *come out all guns blazing* in the future and, if it is possible to be more likely to perform in the future, I think she will.
++ Katy Perry *has come out with all guns blazing* against a former heroine who ill-treated her when she first arrived in Los Angeles desperately looking for musical success.
+
+#pagebreak()
+
+= 化学
+
+== 保护羰基
+
+#grid(
+  align: left,
+  columns: (1.3fr, 2.7fr),
+  gutter: 5mm,
+  [羰基，特别是醛基，在进行氧化反应或遇碱时，往往要进行保护。对此，一般采用生成缩醛或缩酮的反应。生成的缩醛或缩酮水解后又变回原来的醛基或羰基。],
+  image("img/protection.png")
+)
+
+== $h nu$
+
+一些人在书写化学方程式时，常学习大学教材，把光照写成$h nu$，实际上，反应条件表明了反应的能量输入（催化剂则是改变活化能），因此$h nu$实为物理中表示光子能量的公式。
+
+#align(center, [$E eq h nu$])
+
+== 完型填空 but 化学
+
+#image("img/organic-chemistry.png")
+
+无机试剂任选，完成该有机合成流程图。（部分物质已给出）
+
+
+== 第一期判断题答案
+
+如果忘记了题目，可以再翻出第一期看一下。
+
++ $times$（同素异形体间的转化）
+
++ $sqrt(space)$（引发剂不是催化剂）
++ $sqrt(space)$（无需多言，尿素合成开天辟地）
+
+#pagebreak()
+
+= 物理
+
+== 偏振光
+
+#grid(
+  align: left,
+  columns: (1.5fr, 2fr),
+  gutter: 5mm,
+  image("img/lights.png"),
+  [我们知道让自然光通过偏振片可以产生偏振光。但如果不使用偏振片，还存在另一种产生偏振光的方式。
+    
+  自然光射到两种介质的分界面上，如果光入射的方向合适，使反射光线和折射光线之间的夹角恰好是90°时，反射光和折射光都是偏振光，且偏振方向相互垂直。
+  ]
+)
+
+== 热力学第二定律
+
+我们知道热力学第二定律有克劳修斯表述和开尔文表述，它们之间似乎没有明显的联系。所以，本期将介绍如何证明它们是等价的。其实只需要证明只要两者之一不成立，另一个也不成立，从而两者必须同时成立。
+
+=== 部分证明
+
+如果克劳修斯表述不成立，则热量能从低温热库自动传到高温热库。因而可以设计一种卡诺热机，工作于这两个热库之间。$T_1$，为高温热库，$T_2$，为低温热库。我们从高温热库吸热$Q_1$.，向低温热库放热$Q_2$，同时对外做功$W$。我们使$Q_2$，自动地从低温热库传到高温热库。经过一个循环后，总的效果是从高温热库$T_1$吸收热量$Q_1 minus Q_2$，对外做功$Q_1 minus Q_2$，低温热库状态不变。这相当于是一台从单一热库吸取热量对外做功的机器，因而违背了开尔文表述。所以如果克劳修斯表述不成立，则开尔文表述也不成立。
+
+如果开尔文表述不成立，则克劳修斯表述也不成立。同样可以用“反证法”来证明。
+
+#grid(align: center,[#image("img/machine.png", height : 130pt)])
 
 #pagebreak()
 
@@ -277,3 +458,167 @@ $
 ]
 
 第二项需要用到一个特别的结论：$Sigma x^3 = (Sigma x)^2$，但由于证明过于丑陋，就留给你了。
+
+== 叉乘
+
+在立体几何中，我们经常需要处理一个平面的法向量。在课内，简单情况下可以一眼瞪出来，不然只能设 $arrow(n)=(x,y,z)$,然后在平面内找两个向量$arrow(a)$和$arrow(b)$，最后根据向量点乘为零，得到一个三元一次方程组，解出一个$arrow(n)$。这一点都不优雅！幸运的是有一种数学工具可以轻松处理法向量——叉乘。
+
+=== 定义
+
+物理中，我们学习过圆周运动中线速度与角速度的关系：$v=omega r$。我们一直把它当标量式，而不是矢量式。但这些量在空间中明显是有方向的。
+
+#grid(
+  columns: (1fr, 3fr),
+  column-gutter: 5mm,
+  image("img/circle-movement.png"),
+  [
+    $arrow(omega)$的方向按右手螺旋确定，$arrow(r)$从转轴$l$指向运动的质点，$arrow(v)$是质点运动的方向。设$arrow(r)$与$arrow(omega)$的夹角为$theta$，那么可以推出这样的数量关系：$abs(arrow(v))=abs(arrow(omega))abs(arrow(r))sin(theta)$。位置关系上，则有$arrow(v)$垂直于$arrow(omega)$与$arrow(r)$所确定的平面。并且，用右手四指指向$arrow(omega)$，若四指能以不超过$pi$的角度转向$arrow(r)$，那么此时大拇指的指向就是$arrow(v)$的指向。这就是右手规则。从中可以抽象出叉乘的定义：
+  ]
+)
+
+设$arrow(c)$由$arrow(a)$和$arrow(b)$以这样的方式定出：$abs(arrow(c))=abs(arrow(a))abs(arrow(r))sin(b)$，其中$theta$是$arrow(a)$和$arrow(b)$的夹角，并且$arrow(c)$垂直于由$arrow(a)$和$arrow(b)$所定出的平面，方向由从$arrow(a)$转向$arrow(b)$的右手规则确定，那么记$arrow(c) = arrow(a) times arrow(b)$。此时$arrow(c)$就是$arrow(a)$和$arrow(b)$的向量积，或者说叉积。
+
+=== 运算
+
+以下规律读者可以自行推导（真的不难）。
+
++ $arrow(b) times arrow(a) = minus arrow(a) times arrow(b)$
+
++ 分配律：$(arrow(a) plus arrow(b)) times arrow(c) = arrow(a) times arrow(c) plus arrow(b) times arrow(c)$
++ 与数的结合律：$(lambda arrow(a)) times arrow(b) eq arrow(a) times (lambda arrow(b)) eq lambda (arrow(a) times arrow(b))$
++ 对于非零向量 $arrow(a)$，$arrow(b)$，有$arrow(a) parallel arrow(b) arrow.l.r.double.long arrow(a) times arrow(b) = arrow(0)$
+
+=== 坐标
+
+叉乘的定义仍不便于计算，因此我们在空间直角坐标系中推导它的坐标表示式。
+
+设我们所选取的单位正交基底是$brace.l arrow(i) , arrow(j) , arrow(k) brace.r$。设：$arrow(a) eq a_x arrow(i) plus a_y arrow(j) plus a_z arrow(k)$ ，$arrow(b) eq b_x arrow(i) plus b_y arrow(j) plus b_z arrow(k)$。根据前述运算规律，您应该可以自己展开$arrow(a) times arrow(b)$，这里直接给出结果：$arrow(a) times arrow(b) eq (a_y b_z minus a_z b_y) arrow(i) plus (a_z b_x minus a_x b_z) arrow(j) plus (a_x b_y minus a_y b_x) arrow(k)$看起来很长，让我们用行列式记号表示它。（这会十分的简明而优雅）
+
+#align(center,$arrow(a) times arrow(b) eq mat(delim: "|",arrow(i),arrow(j),arrow(k);a_x,a_y,a_z;b_x,b_y,b_z)$)
+
+#pagebreak()
+
+= 计算机
+
+== 二叉搜索树
+
+=== 前言
+
+正如《信息技术...选必一》所述，树是一种受到广泛应用的数据结构。而二叉排序树正是其中的佼佼者。可是课本对于这种重要的内容是一如既往的一笔带过，使得我们无从得知其性质与用法。所以，笔者于此整理其操作，稍作介绍。
+
+=== 定义 
+
+首先，要了解一个数据结构就必须知道其定义，以下给出它的定义：
+
+二叉排序树（Binary Sort Tree，以下简记BST）:
+
+一棵空树，或者是具有下列性质的二叉树：
+
++ 若左子树不空，则左子树上所有结点的值均小于它的根结点的值；
+
++ 若右子树不空，则右子树上所有结点的值均大于它的根结点的值；
++ 左、右子树也分别为二叉排序树；
+
+这里的大小由你自己定义的比较函数确定，比如定义:a > b 指a的最大质因子大于b的最大质因子，而且结点的值也不一定是整形，事实上这个由你自己决定，比如结点的值是字符或者字符串甚至干脆是结点的值自己就是一颗树。
+
+这个大小也不能太随便，至少需要满足:若a > b,b > c,则a > c。（a,b,c之间需要有区别）
+
+然后，就这个定义，我们不难得知一颗BST的中序遍历是不增或者不减的，也能知道BST其实是应用于数据查找的（比如较快的得出一些数据中的第k大的数之类的）。所以，自然地，BST是有插入，查找，删除的操作（当然还有其他的，不过这三个最重要，所以只讲这三个）。让我们看看这些操作的流程吧。
+
+=== 插入
+
+首先，我们来规范一下这颗BST的描述，我们记结点P所记录的数据的集合为|P|,P的左孩子（或者说左
+子树的根结点）为P->L，或P->ch[0],相似的，P的右孩子为P->R，或P->ch[1],N(P,x)表示的是P记录的
+数据x的个数，N(P) = Σ（x $in$ |P|）N(P,x)，比如对于U,|U| = {2},N(U = 2) = 5,就表示U这个结点只记录了数据2，2有5个，对于一个BST,它的根结点记为Root,K(U)表示U为根的子树大小。
+
+然后我们声明当a > b,b > a同时为真或同时为假时称a等于b(记为a == b)，否则称a不等于b(记为 a != b)，而若x,y $in$ |P|，则x必须等于y。我们可以随意的挑选x $in$ |P|来描述P存储的数据，那么记为[P]。则我们明白若x $in$ |P|, x == [P]。
+
+那么，怎么说呢？主要就是先按照定义寻找需要插入的位置，然后插入。这个图之所以吓人，是因为边界判断有一点多。这个思路本身并不难，无非是x小就往左，否则往右罢了。所以，聪明的读者们可以试着着重看标记的部分，或者只看标注部分。
+
+#image("img/insert.jpg")
+
+=== 查找
+
+#image("img/find.jpg")
+
+这里有两个find,左边的是查找x存不存在，右边的是找第k大。
+
+=== 移除
+
+#image("img/remove.jpg")
+
+#pagebreak()
+
+== 加法器
+
+=== 半加器
+
+我们先不考虑两个大的二进制数相加，而是着眼于某一位的运算。对于第n位，我们需要处理以下数据：
+
++ 这一位的两个输入：$A_n$，$B_n$
++ 来自上一位的进位输入：CIN
++ 这一位的输出：$C_n$
++ 向下一位的进位输出：COUT
+
+暂时不考虑CIN，那么我们穷举出$A_n$，$B_n$，$C_n$，COUT的真值表：
+
+#grid(
+  align: auto,
+  columns: (1fr, 0.5fr, 1fr, 0.5fr),
+  gutter: 5mm,
+  table(
+    align: center,
+    columns:(auto, auto, auto, auto),
+    table.header([$A_n$],[$B_n$],[$C_n$],[COUT]),
+    [0],[0],[0],[0],
+    [1],[0],[1],[0],
+    [0],[1],[1],[0],
+    [1],[1],[0],[1]
+    ),
+    [熟悉吗？事实上，$C_n$与COUT正对应着AND和XOR，于是我们得出右侧元件。],
+    image("img/half-adder-inner.png"),[这也就是半加器。
+    #image("img/half-adder.png")]
+  )
+  
+=== 全加器
+
+#grid(
+  align: center,
+  columns: (1fr, 3fr),
+  gutter: 3mm,
+  [让我们再考虑CIN。
+
+  无非就是在当前输出上再加一个半加器。],
+  [#image("img/full-adder-a.png",
+  width: 55%)]
+)
+
+这时候我们发现有两个进位：COUT_1和COUT_2。可以推知两个进位输出是不可能全为1的，毕竟三个1加起来也只有11，不可能进位两次。而两个进位都是有效的，所以用OR拼接。这样就得到了全加器。
+
+#grid(
+  align: center,
+  columns: (2.6fr, 1.4fr),
+  gutter : 5mm,
+  image("img/full-adder-inner.png"),
+  image("img/full-adder.png")
+)
+
+=== 加法器
+
+我们只需要连接多个全加器就能获得多位加法器。如下是一个四位加法器：
+#grid(
+  align: left,
+  columns: (3fr, 2fr),
+  gutter: 3mm,
+  [#image("img/adder-inner.png",
+  width: 85%)],
+  [这种加法器称为波纹进位加法器，因为进位像波纹一样从最低位传递到高位。]
+)
+
+加法器是相当基础的计算元件，或许是许多人在数字电路中学习的第一个计算器，它是构建减法器，乘法器，除法器等运算器的基础。
+
+=== 挑战
+
++ 尝试用加法器构建减法器。（提示：A-B=A+(-B)）
++ 尝试用加法器构建乘法器。（提示：竖式乘法）
++ 可以发现，随着位数变大，波纹进位加法器的进位的传递过程会变得很长。大量逻辑门会造成巨大的计算延迟。试着提出一种更加高速的加法器结构。（提示：展开进位逻辑，直接并行计算进位）
