@@ -6,3 +6,15 @@
     body
   })
 }
+
+#let poem-en(title, author, body) = {
+  align(center, box({
+    {
+      show text: it => text(font: "Snell Roundhand", size: 24pt, it)
+      title
+    }
+    v(-6mm)
+    align(left, body)
+    align(right, author)
+  }))
+}

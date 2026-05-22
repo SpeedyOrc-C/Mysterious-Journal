@@ -1,6 +1,6 @@
 #import "@preview/rubby:0.10.2": get-ruby
 #import "@preview/simple-plot:0.3.0": plot
-#import "../../poem.typ": poem
+#import "../../poem.typ": poem, poem-en
 #import "../../template.typ": content-style, cover, egy
 #import "../../editors.typ" as Editor
 
@@ -144,28 +144,21 @@
 
 #heading(outlined: false, depth: 2)[Weekly Poem]
 
-#align(center, box([
-  #text(font: "Snell Roundhand", weight: "regular", size: 24pt)[If You Believe]
-  #v(-6mm)
-  #align(left)[
-    If you believe inside your heart\
-    Nobody's second class\
-    Every day's a brand new start\
-    What's past is past\
-    And if your dreams go nowhere\
-    Don't give up the fight\
+#poem-en([If You Believe], [Kylie Minogue], [
+  If you believe inside your heart\
+  Nobody's second class\
+  Every day's a brand new start\
+  What's past is past\
+  And if your dreams go nowhere\
+  Don't give up the fight\
 
-    Come with me and you will see\
-    It all looks different in the morning light\
+  Come with me and you will see\
+  It all looks different in the morning light\
 
-    If you're feeling you can't go on and   you're\
-    Lost and lonely and feel so afraid\
-    Remember, things can only get better\
-
-  ]
-
-  #align(right)[_Kylie Minogue_]
-]))
+  If you're feeling you can't go on and you're\
+  Lost and lonely and feel so afraid\
+  Remember, things can only get better\
+])
 
 == Usage of _way_
 
