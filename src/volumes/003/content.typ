@@ -119,7 +119,7 @@
 
 #pagebreak()
 
-= 你一块，我一块的均田制—吗？
+= 你一块，我一块的均田制——吗？
 诚然，我们都从历史书上学到过均田制。But，那这均田制到底是什么？
 
 == 起源 - 北魏
@@ -175,7 +175,7 @@
   #align(right)[_Kylie Minogue_]
 ]))
 
-== Usage of Way
+== Usage of _way_
 
 1. You can say something is done *in a particular way*, e.g.\
 
@@ -190,7 +190,7 @@ You can also omit "in" when you are using *the* or a possessive, e.g.\
 
 We don't look at things *the same way*.\
 I'm going to handle *this my way*.\
-  
+
 2. You can talk about *a way of doing something* or *a way to do it*.There is no difference in meaning, e.g.\
 
 There's *no way of proving* he stole the watch.\
@@ -204,24 +204,22 @@ I'm used to *her way of doing* things.\
 
 == Expressions
 
-以下是 “(尽最大)努力……” 的一些英文表达\
+以下是“（尽最大）努力……”的一些表达：
 
 + endeavour to do sth.
-
 + make every endeavour to do sth.
 + strive to do sth.
-+ go to/take great trouble to do sth. = 不 辞辛苦...
-+ will sb. /sth. to do sth. (特例: will oneself(not)to do sth.)
++ go to/take great trouble to do sth.（不辞辛苦）
++ will sb. /sth. to do sth.（特例: will oneself(not)to do sth.）
 + do everything in one's power to do sth.
-+ ... ,no expense spared(独立主格结构)
-+ go at it hammer and tongs = 全力以赴做...; 激烈争吵或打斗
-+ come out(with)all guns blazing=火力全开;付诸全部的精力去做;全力以赴
-+ go/work/move/be full steam ahead(with ... )=全速推进;开足马力进行;全力以赴
++ ..., no expense spared（独立主格结构）
++ go at it hammer and tongs （全力以赴做；激烈争吵、打斗）
++ come out (with) all guns blazing（火力全开；付诸全部的精力去做；全力以赴）
++ go/work/move/be full steam ahead (with ... )（全速推进；全力以赴）
 
 === Examples
 
 + We should *struggle to* overcome our shortcomings.
-
 + The company came out *with all guns blazing*.
 + I'm going to take you out to dinner, *no expense spared*.
 + First, we should *endeavour to* work for the well-being of the next generation.
@@ -236,22 +234,25 @@ I'm used to *her way of doing* things.\
 == 保护羰基
 
 #grid(
-  align: left,
   columns: (1.3fr, 2.7fr),
-  gutter: 5mm,
-  [羰基，特别是醛基，在进行氧化反应或遇碱时，往往要进行保护。对此，一般采用生成缩醛或缩酮的反应。生成的缩醛或缩酮水解后又变回原来的醛基或羰基。],
-  image("img/protection.png")
+  [
+    羰基，特别是醛基，在进行氧化反应或遇碱时，往往要进行保护。对此，一般采用生成缩醛或缩酮的反应。生成的缩醛或缩酮水解后又变回原来的醛基或羰基。
+  ],
+  image("img/protection.png"),
 )
 
 == $h nu$
 
-一些人在书写化学方程式时，常学习大学教材，把光照写成$h nu$，实际上，反应条件表明了反应的能量输入（催化剂则是改变活化能），因此$h nu$实为物理中表示光子能量的公式。
-
-#align(center, [$E eq h nu$])
+一些人在书写化学方程式时，常学习大学教材，把光照写成 $h nu$，实际上，反应条件表明了反应的能量输入（催化剂则是改变活化能），因此 $h nu$ 实为物理中表示光子能量的公式。
+$
+  E = h nu
+$
 
 == 完型填空 but 化学
 
 #image("img/organic-chemistry.png")
+
+// #render-mol(read("img/organic-chemistry.mol"))
 
 无机试剂任选，完成该有机合成流程图。（部分物质已给出）
 
@@ -260,10 +261,9 @@ I'm used to *her way of doing* things.\
 
 如果忘记了题目，可以再翻出第一期看一下。
 
-+ $times$（同素异形体间的转化）
-
-+ $sqrt(space)$（引发剂不是催化剂）
-+ $sqrt(space)$（无需多言，尿素合成开天辟地）
++ 错（同素异形体间的转化）
++ 对（引发剂不是催化剂）
++ 对（无需多言，尿素合成开天辟地）
 
 #pagebreak()
 
@@ -277,9 +277,9 @@ I'm used to *her way of doing* things.\
   gutter: 5mm,
   image("img/lights.png"),
   [我们知道让自然光通过偏振片可以产生偏振光。但如果不使用偏振片，还存在另一种产生偏振光的方式。
-    
-  自然光射到两种介质的分界面上，如果光入射的方向合适，使反射光线和折射光线之间的夹角恰好是90°时，反射光和折射光都是偏振光，且偏振方向相互垂直。
-  ]
+
+    自然光射到两种介质的分界面上，如果光入射的方向合适，使反射光线和折射光线之间的夹角恰好是90°时，反射光和折射光都是偏振光，且偏振方向相互垂直。
+  ],
 )
 
 == 热力学第二定律
@@ -288,11 +288,11 @@ I'm used to *her way of doing* things.\
 
 === 部分证明
 
-如果克劳修斯表述不成立，则热量能从低温热库自动传到高温热库。因而可以设计一种卡诺热机，工作于这两个热库之间。$T_1$，为高温热库，$T_2$，为低温热库。我们从高温热库吸热$Q_1$.，向低温热库放热$Q_2$，同时对外做功$W$。我们使$Q_2$，自动地从低温热库传到高温热库。经过一个循环后，总的效果是从高温热库$T_1$吸收热量$Q_1 minus Q_2$，对外做功$Q_1 minus Q_2$，低温热库状态不变。这相当于是一台从单一热库吸取热量对外做功的机器，因而违背了开尔文表述。所以如果克劳修斯表述不成立，则开尔文表述也不成立。
+如果克劳修斯表述不成立，则热量能从低温热库自动传到高温热库。因而可以设计一种卡诺热机，工作于这两个热库之间。$T_1$ 为高温热库，$T_2$ 为低温热库。我们从高温热库吸热 $Q_1$，向低温热库放热 $Q_2$，同时对外做功 $W$。我们使 $Q_2$ 自动地从低温热库传到高温热库。经过一个循环后，总的效果是从高温热库 $T_1$ 吸收热量 $Q_1 - Q_2$，对外做功$Q_1 - Q_2$，低温热库状态不变。这相当于是一台从单一热库吸取热量对外做功的机器，因而违背了开尔文表述。所以如果克劳修斯表述不成立，则开尔文表述也不成立。
 
 如果开尔文表述不成立，则克劳修斯表述也不成立。同样可以用“反证法”来证明。
 
-#grid(align: center,[#image("img/machine.png", height : 130pt)])
+#align(center, image("img/machine.png", height: 130pt))
 
 #pagebreak()
 
@@ -461,7 +461,7 @@ $
 
 == 叉乘
 
-在立体几何中，我们经常需要处理一个平面的法向量。在课内，简单情况下可以一眼瞪出来，不然只能设 $arrow(n)=(x,y,z)$,然后在平面内找两个向量$arrow(a)$和$arrow(b)$，最后根据向量点乘为零，得到一个三元一次方程组，解出一个$arrow(n)$。这一点都不优雅！幸运的是有一种数学工具可以轻松处理法向量——叉乘。
+在立体几何中，我们经常需要处理一个平面的法向量。在课内，简单情况下可以一眼瞪出来，不然只能设 $arrow(n)=(x,y,z)$，然后在平面内找两个向量 $arrow(a)$ 和 $arrow(b)$，最后根据向量点乘为零，得到一个三元一次方程组，解出一个 $arrow(n)$. 这一点都不优雅！幸运的是有一种数学工具可以轻松处理法向量——叉乘。
 
 === 定义
 
@@ -472,29 +472,33 @@ $
   column-gutter: 5mm,
   image("img/circle-movement.png"),
   [
-    $arrow(omega)$的方向按右手螺旋确定，$arrow(r)$从转轴$l$指向运动的质点，$arrow(v)$是质点运动的方向。设$arrow(r)$与$arrow(omega)$的夹角为$theta$，那么可以推出这样的数量关系：$abs(arrow(v))=abs(arrow(omega))abs(arrow(r))sin(theta)$。位置关系上，则有$arrow(v)$垂直于$arrow(omega)$与$arrow(r)$所确定的平面。并且，用右手四指指向$arrow(omega)$，若四指能以不超过$pi$的角度转向$arrow(r)$，那么此时大拇指的指向就是$arrow(v)$的指向。这就是右手规则。从中可以抽象出叉乘的定义：
-  ]
+    $arrow(omega)$ 的方向按右手螺旋确定，$arrow(r)$ 从转轴$l$指向运动的质点，$arrow(v)$ 是质点运动的方向。设 $arrow(r)$ 与 $arrow(omega)$ 的夹角为 $theta$，那么可以推出这样的数量关系：$abs(arrow(v))=abs(arrow(omega)) dot abs(arrow(r)) dot sin(theta)$. 位置关系上，则有 $arrow(v)$ 垂直于 $arrow(omega)$ 与 $arrow(r)$ 所确定的平面。并且，用右手四指指向 $arrow(omega)$，若四指能以不超过 $pi$ 的角度转向 $arrow(r)$，那么此时大拇指的指向就是 $arrow(v)$ 的指向。这就是右手规则。从中可以抽象出叉乘的定义：
+  ],
 )
 
-设$arrow(c)$由$arrow(a)$和$arrow(b)$以这样的方式定出：$abs(arrow(c))=abs(arrow(a))abs(arrow(r))sin(b)$，其中$theta$是$arrow(a)$和$arrow(b)$的夹角，并且$arrow(c)$垂直于由$arrow(a)$和$arrow(b)$所定出的平面，方向由从$arrow(a)$转向$arrow(b)$的右手规则确定，那么记$arrow(c) = arrow(a) times arrow(b)$。此时$arrow(c)$就是$arrow(a)$和$arrow(b)$的向量积，或者说叉积。
+设 $arrow(c)$ 由 $arrow(a)$ 和 $arrow(b)$ 以这样的方式定出：$abs(arrow(c))=abs(arrow(a))abs(arrow(r))sin(b)$，其中 $theta$ 是 $arrow(a)$ 和 $arrow(b)$ 的夹角，并且 $arrow(c)$ 垂直于由 $arrow(a)$ 和 $arrow(b)$ 所定出的平面，方向由从 $arrow(a)$ 转向 $arrow(b)$ 的右手规则确定，那么记 $arrow(c) = arrow(a) times arrow(b)$. 此时 $arrow(c)$ 就是 $arrow(a)$ 和 $arrow(b)$ 的向量积，或者说叉积。
 
 === 运算
 
 以下规律读者可以自行推导（真的不难）。
 
-+ $arrow(b) times arrow(a) = minus arrow(a) times arrow(b)$
++ $arrow(b) times arrow(a) = - arrow(a) times arrow(b)$
 
-+ 分配律：$(arrow(a) plus arrow(b)) times arrow(c) = arrow(a) times arrow(c) plus arrow(b) times arrow(c)$
-+ 与数的结合律：$(lambda arrow(a)) times arrow(b) eq arrow(a) times (lambda arrow(b)) eq lambda (arrow(a) times arrow(b))$
-+ 对于非零向量 $arrow(a)$，$arrow(b)$，有$arrow(a) parallel arrow(b) arrow.l.r.double.long arrow(a) times arrow(b) = arrow(0)$
++ 分配律：$(arrow(a) + arrow(b)) times arrow(c) = arrow(a) times arrow(c) plus arrow(b) times arrow(c)$
+
++ 与数的结合律：$(lambda arrow(a)) times arrow(b) = arrow(a) times (lambda arrow(b)) = lambda (arrow(a) times arrow(b))$
+
++ 对于非零向量 $arrow(a)$，$arrow(b)$，有 $arrow(a) parallel arrow(b) <==> arrow(a) times arrow(b) = arrow(0)$
 
 === 坐标
 
 叉乘的定义仍不便于计算，因此我们在空间直角坐标系中推导它的坐标表示式。
 
-设我们所选取的单位正交基底是$brace.l arrow(i) , arrow(j) , arrow(k) brace.r$。设：$arrow(a) eq a_x arrow(i) plus a_y arrow(j) plus a_z arrow(k)$ ，$arrow(b) eq b_x arrow(i) plus b_y arrow(j) plus b_z arrow(k)$。根据前述运算规律，您应该可以自己展开$arrow(a) times arrow(b)$，这里直接给出结果：$arrow(a) times arrow(b) eq (a_y b_z minus a_z b_y) arrow(i) plus (a_z b_x minus a_x b_z) arrow(j) plus (a_x b_y minus a_y b_x) arrow(k)$看起来很长，让我们用行列式记号表示它。（这会十分的简明而优雅）
+设我们所选取的单位正交基底是 ${arrow(i), arrow(j), arrow(k)}$。设：$arrow(a) = a_x arrow(i) + a_y arrow(j) + a_z arrow(k)$，$arrow(b) = b_x arrow(i) + b_y arrow(j) + b_z arrow(k)$。根据前述运算规律，您应该可以自己展开$arrow(a) times arrow(b)$，这里直接给出结果：$arrow(a) times arrow(b) = (a_y b_z - a_z b_y) arrow(i) + (a_z b_x - a_x b_z) arrow(j) + (a_x b_y - a_y b_x) arrow(k)$ 看起来很长，让我们用行列式记号表示它。（这会十分的简明而优雅）
 
-#align(center,$arrow(a) times arrow(b) eq mat(delim: "|",arrow(i),arrow(j),arrow(k);a_x,a_y,a_z;b_x,b_y,b_z)$)
+$
+  arrow(a) times arrow(b) = mat(delim: "|", arrow(i), arrow(j), arrow(k); a_x, a_y, a_z; b_x, b_y, b_z)
+$
 
 #pagebreak()
 
@@ -502,30 +506,34 @@ $
 
 == 二叉搜索树
 
-=== 前言
-
 正如《信息技术...选必一》所述，树是一种受到广泛应用的数据结构。而二叉排序树正是其中的佼佼者。可是课本对于这种重要的内容是一如既往的一笔带过，使得我们无从得知其性质与用法。所以，笔者于此整理其操作，稍作介绍。
 
-=== 定义 
+假设 $a$ 和 $b$ 为二叉搜索树，并且每个节点储存了可以比较大小的数据类型 $x in T$，那么这个树的结构是：
+$
+  a, b ::= "Empty" | "Node" x space a space b
+$
+然后定义函数 $"elems"(t)$ 为一棵树 $t$ 里面所有节点的数据：
+$
+                   "elems"("Empty") & = emptyset \
+  "elems"("Node" x space a space b) & = {x} union "elems"(a) union "elems"(b)
+$
+而且，一个节点左侧的树的所有数据都比这个节点上的数据要小，右侧的所有数据都比这个节点上的数据要大：
+$
+  forall ("Node" x space a space b). space forall x y. space x in "elems"(a) and y in "elems"(b) -> a <= x <= b\
+$
 
-首先，要了解一个数据结构就必须知道其定义，以下给出它的定义：
-
-二叉排序树（Binary Sort Tree，以下简记BST）:
-
-一棵空树，或者是具有下列性质的二叉树：
-
-+ 若左子树不空，则左子树上所有结点的值均小于它的根结点的值；
-
-+ 若右子树不空，则右子树上所有结点的值均大于它的根结点的值；
-+ 左、右子树也分别为二叉排序树；
-
-这里的大小由你自己定义的比较函数确定，比如定义:a > b 指a的最大质因子大于b的最大质因子，而且结点的值也不一定是整形，事实上这个由你自己决定，比如结点的值是字符或者字符串甚至干脆是结点的值自己就是一颗树。
-
-这个大小也不能太随便，至少需要满足:若a > b,b > c,则a > c。（a,b,c之间需要有区别）
 
 然后，就这个定义，我们不难得知一颗BST的中序遍历是不增或者不减的，也能知道BST其实是应用于数据查找的（比如较快的得出一些数据中的第k大的数之类的）。所以，自然地，BST是有插入，查找，删除的操作（当然还有其他的，不过这三个最重要，所以只讲这三个）。让我们看看这些操作的流程吧。
 
 === 插入
+
+$
+                    "insert"(x, "Empty") & = "Node" x "Empty" "Empty" \
+  "insert"(x, "Node" x' space a space b) & = cases(
+                                             "Node" x' space "insert"(x,a) space b "如果" x <= x',
+                                             "Node" x' space a space "insert"(x,b),
+                                           )
+$
 
 首先，我们来规范一下这颗BST的描述，我们记结点P所记录的数据的集合为|P|,P的左孩子（或者说左
 子树的根结点）为P->L，或P->ch[0],相似的，P的右孩子为P->R，或P->ch[1],N(P,x)表示的是P记录的
@@ -538,6 +546,15 @@ $
 #image("img/insert.jpg")
 
 === 查找
+
+$
+                    "find"(x, "Empty") & = bot \
+  "find"(x, "Node" x' space a space b) & = cases(
+                                           top "如果" x = x',
+                                           "find"(x, a) "如果" x < x',
+                                           "find"(x, b)
+                                         ) \
+$
 
 #image("img/find.jpg")
 
@@ -556,52 +573,56 @@ $
 我们先不考虑两个大的二进制数相加，而是着眼于某一位的运算。对于第n位，我们需要处理以下数据：
 
 + 这一位的两个输入：$A_n$，$B_n$
-+ 来自上一位的进位输入：CIN
++ 来自上一位的进位输入：$C_"in"$
 + 这一位的输出：$C_n$
-+ 向下一位的进位输出：COUT
++ 向下一位的进位输出：$C_"out"$
 
-暂时不考虑CIN，那么我们穷举出$A_n$，$B_n$，$C_n$，COUT的真值表：
+暂时不考虑 $C_"in"$，那么我们穷举出$A_n$，$B_n$，$C_n$，$C_"out"$的真值表：
 
 #grid(
   align: auto,
-  columns: (1fr, 0.5fr, 1fr, 0.5fr),
-  gutter: 5mm,
+  columns: (.7fr, 0.5fr, 1fr, 0.5fr),
+  gutter: 2mm,
   table(
     align: center,
-    columns:(auto, auto, auto, auto),
-    table.header([$A_n$],[$B_n$],[$C_n$],[COUT]),
-    [0],[0],[0],[0],
-    [1],[0],[1],[0],
-    [0],[1],[1],[0],
-    [1],[1],[0],[1]
-    ),
-    [熟悉吗？事实上，$C_n$与COUT正对应着AND和XOR，于是我们得出右侧元件。],
-    image("img/half-adder-inner.png"),[这也就是半加器。
-    #image("img/half-adder.png")]
-  )
-  
+    columns: (auto, auto, auto, auto),
+    inset: 1.5mm,
+    table.header([$A_n$], [$B_n$], [$C_n$], [$C_"out"$]),
+    [0], [0], [0], [0],
+    [1], [0], [1], [0],
+    [0], [1], [1], [0],
+    [1], [1], [0], [1],
+  ),
+  [熟悉吗？事实上，$C_n$ 与 $C_"out"$正对应着AND和XOR，于是我们得出右侧元件。],
+  image("img/half-adder-inner.png"),
+  [这也就是半加器。
+    #image("img/half-adder.png")],
+)
+
 === 全加器
 
 #grid(
   align: center,
   columns: (1fr, 3fr),
   gutter: 3mm,
-  [让我们再考虑CIN。
+  [
+    让我们再考虑 $C_"in"$。
 
-  无非就是在当前输出上再加一个半加器。],
-  [#image("img/full-adder-a.png",
-  width: 55%)]
+    无非就是在当前输出上再加一个半加器。
+  ],
+  image("img/full-adder-a.png", width: 55%),
 )
 
-这时候我们发现有两个进位：COUT_1和COUT_2。可以推知两个进位输出是不可能全为1的，毕竟三个1加起来也只有11，不可能进位两次。而两个进位都是有效的，所以用OR拼接。这样就得到了全加器。
+这时候我们发现有两个进位：$C_("out", 1)$ 和 $C_("out", 2)$. 可以推知两个进位输出是不可能全为1的，毕竟三个1加起来也只有11，不可能进位两次。而两个进位都是有效的，所以用OR拼接。这样就得到了全加器。
 
 #grid(
   align: center,
   columns: (2.6fr, 1.4fr),
-  gutter : 5mm,
-  image("img/full-adder-inner.png"),
-  image("img/full-adder.png")
+  gutter: 5mm,
+  image("img/full-adder-inner.png"), image("img/full-adder.png"),
 )
+
+#pagebreak()
 
 === 加法器
 
@@ -610,15 +631,13 @@ $
   align: left,
   columns: (3fr, 2fr),
   gutter: 3mm,
-  [#image("img/adder-inner.png",
-  width: 85%)],
-  [这种加法器称为波纹进位加法器，因为进位像波纹一样从最低位传递到高位。]
+  [#image("img/adder-inner.png", width: 85%)], [这种加法器称为波纹进位加法器，因为进位像波纹一样从最低位传递到高位。],
 )
 
 加法器是相当基础的计算元件，或许是许多人在数字电路中学习的第一个计算器，它是构建减法器，乘法器，除法器等运算器的基础。
 
 === 挑战
 
-+ 尝试用加法器构建减法器。（提示：A-B=A+(-B)）
++ 尝试用加法器构建减法器。（提示：$A-B=A+(-B)$）
 + 尝试用加法器构建乘法器。（提示：竖式乘法）
 + 可以发现，随着位数变大，波纹进位加法器的进位的传递过程会变得很长。大量逻辑门会造成巨大的计算延迟。试着提出一种更加高速的加法器结构。（提示：展开进位逻辑，直接并行计算进位）
