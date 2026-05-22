@@ -1,5 +1,6 @@
 #import "@preview/rubby:0.10.2": get-ruby
 #import "@preview/simple-plot:0.3.0": plot
+#import "../../poem.typ": poem
 #import "../../template.typ": content-style, cover, egy
 #import "../../editors.typ" as Editor
 
@@ -59,15 +60,6 @@
 - *交易杠杆*：常见于期货、外汇。通常只需存入保证金（如 $10%$）就能交易 $100%$ 价值的合约。盈亏按 $100%$ 计算，收益风险都放大 $10$ 倍。追加保证金就是杠杆交易的风险警示。
 
 = 汉语诗三首
-
-#let poem(title, author, body) = {
-  align(center, {
-    v(9mm)
-    par(text(weight: "semibold", size: 14pt, title))
-    par(text(size: 8pt, author))
-    body
-  })
-}
 
 #poem([九月初], [笑笑老师], [
   豆蔻梢头九月初，一笑百媚数回眸。
